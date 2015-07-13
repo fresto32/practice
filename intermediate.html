@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Intermediate Styling/HTML</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="styleIntermediate.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+<!-- Goals = Nice Typeface, nicer drop down menu, image -->
+<!-- NAVIGATION BAR, INCLUSIVE OF MOBILE ADAPTIBILITY -->
+      <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Bootstrap Practice</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Simple</a></li>
+            <li class="active"><a href="intermediate.html">Intermediate</a></li>
+            <li><a href="complex.html">Complex</a></li>
+
+            <!-- Dropdown Navigation Bar Element -->
+            <li><a href="about.html" data-target='#' data-toggle='dropdown'>About <span class='caret'></span></a>
+               <ul class='dropdown-menu'>
+                  <li><a href='facebook.com'>Facebook</a></li>
+                  <li class='divider'></li>
+                  <li><a href='twitter.com'>Twitter</a></li>
+               </ul>
+
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class='container-fluid'>
+<div class='col-sm-12 text-center'><h1 class='lead'>Transportation</h1></div>
+<div class='col-sm-12 text-center'><p> The main modes of transportation in Adelaide include train, tram, bus, and car.</p></div>
+
+<div class='text-center'>
+<div class='col-sm-2 col-sm-offset-2'>
+<div class='panel panel-default'>
+    <div class='panel-body'>
+    <p> Image of train</p>
+    </div>
+    <div class='panel-footer'><p>Train</p></div>
+</div>
+</div>
+
+
+<div class='col-sm-2'>
+<div class='panel panel-default'>
+    <div class='panel-body'>
+    <p> Image of tram</p>
+    </div>
+    <div class='panel-footer'><p>Tram</p></div>
+</div>
+</div>
+
+<div class='col-sm-2'>
+<div class='panel panel-default'>
+    <div class='panel-body'>
+    <p> Image of bus</p>
+    </div>
+    <div class='panel-footer'><p>Bus</p></div>
+</div>
+</div>
+
+<div class='col-sm-2'>
+<div class='panel panel-default'>
+    <div class='panel-body'>
+    <p> Image of car</p>
+    </div>
+    <div class='panel-footer'><p>Car</p></div>
+</div>
+</div>
+<div class='col-sm-2'></div>
+</div>
+
+
+
+
+
+
+<div class='text-center col-sm-12'>
+<button type='button' class='btn btn-default'>
+    Action
+</button>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+<div class='container-fluid footer'>
+
+<footer class='col-sm-12 text-center'>
+<p></p>
+</footer>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
